@@ -6,4 +6,4 @@ const reroll = function () {
   });
 };
 
-setInterval(reroll, 500);
+setInterval(reroll, 100);
