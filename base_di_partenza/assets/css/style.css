@@ -34,7 +34,7 @@ header div button {
 #hero {
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
 }
 div#hero h1 {
   font-size: 6em;
@@ -51,7 +51,6 @@ div#hero p {
   font-size: 20px;
 }
 div#hero button {
-
   font-size: 20px;
   padding: 10px 2em;
   text-align: center;
@@ -237,4 +236,8 @@ hr {
   width: 400px;
   border-top: 1px solid#9f91858c;
   padding-top: 30px;
+}
+
+svg g {
+  transition: 300ms ease-in-out;
 }
