@@ -1,0 +1,237 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-color: #ffc017;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+nav div {
+  padding: 1em 8em;
+}
+
+nav div a {
+  margin-right: 1em;
+}
+
+header div button {
+  border-radius: 40px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}
+
+div#hero h1 {
+  font-size: 5em;
+  font-weight: 400;
+}
+
+div#hero {
+  padding-top: 4em;
+  padding-left: 8em;
+  border-bottom: 1px solid black;
+}
+
+div#hero p {
+  margin: 1.6em 0;
+  font-size: 20px;
+}
+div#hero button {
+  margin-bottom: 5em;
+  font-size: 20px;
+  padding: 10px 2em;
+  text-align: center;
+}
+
+#trending {
+  margin: 3% 8%;
+}
+#trd-logo {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#logo-ctn {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#trending-articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 25px;
+}
+
+.single-article {
+  display: flex;
+
+  flex-grow: 1;
+  width: 30%;
+}
+.single-article p {
+  display: inline-block;
+}
+
+.single-article img {
+  border-radius: 100%;
+  width: 4%;
+  vertical-align: middle;
+}
+
+.users p,
+h6 {
+  padding: 5px;
+}
+.users h6 {
+  font-weight: bolder;
+}
+.users p:nth-child(2) {
+  font-weight: 500;
+}
+.users p:last-child {
+  color: #8c9498;
+}
+
+.users {
+  flex-grow: 1;
+}
+
+.n-el {
+  padding-top: 5px;
+  padding-right: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #e6e7e6;
+}
+
+hr {
+  opacity: 30%;
+}
+#split {
+  display: flex;
+}
+
+#discover {
+  width: 50%;
+}
+
+/* COLONNA SINISTRA*/
+#colonna {
+  flex-grow: 1;
+  display: flex;
+  padding-left: 8em;
+  padding-top: 4em;
+  padding-right: 4em;
+  flex-direction: column;
+}
+.card-container {
+  display: flex;
+  width: 100%;
+  padding-bottom: 20px;
+  align-items: flex-end;
+}
+
+.right-card img {
+  width: 13em;
+}
+
+.left-card p:first-of-type {
+  display: inline-block;
+}
+
+.name {
+  padding-top: 30px;
+}
+.left-card {
+  padding-right: 20px;
+  width: 30em;
+}
+.left-card img {
+  vertical-align: middle;
+  border-radius: 100%;
+  width: 5%;
+}
+.left-card h2 {
+  font-size: 23px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.left-card p:not(:first-of-type) {
+  color: #9f9185;
+}
+.when-happen {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.when-happen img {
+  width: 20px;
+}
+.when-happen p {
+  color: #9f9185;
+}
+
+.bg-diff {
+  background-color: #f2f3f3;
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+
+.division {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+/* COLONNA DESTRA */
+
+#discover {
+  padding: 4em 3.5em;
+  height: 130px;
+}
+
+#discover h5 {
+  font-weight: bold;
+}
+#button-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-bottom: 30px;
+  width: 350px;
+}
+
+.discover-button {
+  background-color: transparent;
+  border: 1px solid #9f91858c;
+  color: #9f9185;
+  padding: 8px 10px;
+  flex-grow: 1;
+  font-weight: bold;
+}
+
+#letters {
+  display: flex;
+  font-weight: bold;
+  color: #9f9185fb;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 400px;
+  border-top: 1px solid#9f91858c;
+  padding-top: 30px;
+}
