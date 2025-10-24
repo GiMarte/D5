@@ -20,3 +20,5 @@ const randomLetter = () => {
 };
 
 setInterval(randomLetter, 50);
+
+setInterval(randomLetter, 100);
