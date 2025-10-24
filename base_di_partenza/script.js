@@ -16,9 +16,20 @@ const randomLetter = () => {
 
   setTimeout(() => {
     g.style.opacity = "1";
-  }, 800);
+  }, 1600);
 };
 
 setInterval(randomLetter, 50);
-
 setInterval(randomLetter, 100);
+
+const nav = document.getElementsByTagName("nav")[0];
+
+window.addEventListener("scroll", () => {
+  const scrollY = window.scrollY;
+  const limit = 500;
+  if (scrollY > limit) {
+    nav.style.backgroundColor = "white";
+  } else {
+    nav.style.backgroundColor = "#ffc017";
+  }
+});
