@@ -37,7 +37,7 @@ header div button {
   align-items: center
 }
 div#hero h1 {
-  font-size: 5em;
+  font-size: 6em;
   font-weight: 400;
 }
 
@@ -51,7 +51,7 @@ div#hero p {
   font-size: 20px;
 }
 div#hero button {
-  margin-bottom: 5em;
+
   font-size: 20px;
   padding: 10px 2em;
   text-align: center;
