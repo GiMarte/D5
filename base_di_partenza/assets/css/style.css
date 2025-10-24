@@ -31,14 +31,17 @@ header div button {
   color: white;
   padding: 10px 20px;
 }
-
+#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
 div#hero h1 {
   font-size: 5em;
   font-weight: 400;
 }
 
 div#hero {
-  padding-top: 4em;
   padding-left: 8em;
   border-bottom: 1px solid black;
 }
